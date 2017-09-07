@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Services </title>
+</head>
+<div id="service" class="animate form" style="margin:auto;">
+
+
+    <h3>Service Name: {{service.serviceName}}</h3>
+    <h3>Description: {{service.description}}</h3>
+    <h3>Cost: {{service.cost}}</h3>
+    {{#each reviews}}
+    <p> Review: {{this.review}} </p>
+    <p>Rating: {{this.rating}} </p>
+    {{/each}}
+
+</div>

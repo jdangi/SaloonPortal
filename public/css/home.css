@@ -1,0 +1,356 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url(http://cdn.wallpapersafari.com/6/46/Of0U1r.jpg);
+  color: darkmagenta ;
+}
+img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+header {
+    background-color:palevioletred;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+textarea {
+vertical-align: middle;
+}
+#tabs li {
+    float:right;
+    width:15%;
+    border-spacing: 10px;
+    padding: 10px 1% 10px 1%;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+textarea {
+  width: 600px;
+  height: 150px;
+}
+
+#container{width:100%;
+height: 100px;
+}
+#left{float:left;
+       height: 100%;
+        margin-left: 20px;
+       width:auto;}
+#right{float:right;
+  height: 100%;
+width:auto;}
+#benefits {
+    color: whitesmoke;
+    float:right;
+}
+
+ div.stars {
+  width: 270px;
+  display: inline-block;
+        vertical-align: middle;
+
+}
+
+input.star { display: none; }
+
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  
+  color: #444;
+  transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before { color: #F62; }
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+#login{
+    width: 30%;	
+    margin:auto;
+    text-align: center;
+      vertical-align: middle;
+
+
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#service{
+        width: 60%;	
+    margin:auto;
+    text-align: left;
+    padding: 20px;
+      vertical-align: middle;
+
+
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#search{
+    width: 60%;	
+    margin:auto;
+    text-align: center;
+      vertical-align: middle;
+
+
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#salon{
+   
+    text-align: left;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    color:whitesmoke;  
+    width: 50%;   
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#searchBox{
+    width: 100%;
+    margin: auto;
+}
+p{
+    margin-left: 20px;
+    color: #ffffcc;  
+    font-size: 15px;
+}
+
+#listing li {
+    margin: 20px;
+}
+#listing1 li {
+    margin: 20px;
+}
+#signup{
+    width: 30%;	
+    padding: 10px 3% 20px 3%;
+    margin: auto;
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#review{
+    width: 30%;	
+    margin:auto;
+    text-align: center;
+      vertical-align: middle;
+    	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+#stylist{
+    width: 70%;	
+    margin:auto;
+    text-align: left;
+      vertical-align: middle;
+      padding: 20px;
+    	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+
+#boxes input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+          vertical-align: middle;
+
+    width: 230px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+.boxes input{
+        color:  #5f5f5f;
+    box-sizing: border-box;
+    float: right;
+    width: 230px;
+    height: 30px;
+    vertical-align: top;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+
+#boxes1 input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+          vertical-align: middle;
+
+    width: 70px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+
+#boxes2 input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+          vertical-align: middle;
+
+    width: 70px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+
+#results li a{
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+         box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+ -webkit-box-shadow: 5px;
+ -moz-border-radius: 5px;
+      border-radius: 5px;
+    text-align: left;
+    display: block;
+    color:wheat;
+
+
+}
+
+#results{
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+         border-radius: 5px;
+        padding: 20px 20px 20px 20px;
+}
+
+#results h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+
+   #stylist h4{
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+#results li ul{
+    text-align: right;
+    color:black;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+#tabs li a {
+    display: block;
+    color:darkmagenta;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    border-style: solid;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#tabs li a:hover {
+    background-color:palevioletred;
+}
+
+.navbar-inverse {
+      border: none;
+    }
+
+h1 {
+ color: whitesmoke;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+
+#salon_logo {
+    float:left;
+    width:50%;
+}
+
+#hints{
+    margin-right: 20 px;
+    display: inline;
+}
+
+footer{
+    margin: 20px;
+    padding-top: 40px;
+    text-align: left;
+    color: palevioletred;
+}
+
+footer a{
+    text-align: right;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Salon Profile </title>
+</head>
+<div id="container">
+    <div id="salon" class="animate form">
+
+        <h1>{{vendor.saloonName}}</h1>
+        <p>Scissors and Razors Salon is located in Hoboken, NJ. The salon offers services like hairdressing, hair extension
+            and nail art. Other services include shampooing, conditioning and blow drying and are also expert in hair coloring
+            and styling.</p>
+        <h2>Address</h2>
+        <p>{{vendor.address}}</p>
+
+        <h2>Stylists</h2>
+        <div id="listing">
+
+            {{#each stylst}}
+            <p><a href="http://localhost:3000/hairCutters/{{this._id}}"> {{this.firstName}} {{this.lastName}}</a></p>
+            {{/each}}
+
+        </div>
+
+        <h2>Services</h2>
+        <div id="listing1">
+
+            {{#each services}}
+            <p><a href="http://localhost:3000/services/{{this._id}}"> {{this.serviceName}}</a></p>
+            {{/each}}
+
+        </div>
+
+
+        <h2>Reviews</h2>
+
+        {{#each reviews}}
+        <p>Review: {{this.review}} </p>
+
+        <p>Rating: {{this.rating}} </p>
+        {{/each}}
+
+
+        <div class="stars">
+            <input class="star star-5" name="five" id="star-5" type="radio" />
+            <label class="star star-5" for="star-5"></label>
+            <input class="star star-4" name="four" id="star-4" type="radio" />
+            <label class="star star-4" for="star-4"></label>
+            <input class="star star-3" name="three" id="star-3" type="radio" />
+            <label class="star star-3" for="star-3"></label>
+            <input class="star star-2" name="two" id="star-2" type="radio" />
+            <label class="star star-2" for="star-2"></label>
+            <input class="star star-1" name="one" id="star-1" type="radio" />
+            <label class="star star-1" for="star-1"></label>
+            <div class="animate form">
+                <form id="reviewForm" action="/reviews/{{_id}}" method="post">
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+{{!
+<div id="right">
+
+    <table>
+        <tr>
+            <td>
+                <a target="_blank" href="/public/SalonImages/salon1.jpg">
+        <img src="/public/SalonImages/salon1.jpg" alt="salon1">
+        </a></td>
+            <td>
+                <a target="_blank" href="/public/SalonImages/salon2.jpg">
+        <img src="/public/SalonImages/salon2.jpg" alt="salon2">
+        </a></td>
+            <td>
+                <a target="_blank" href="/public/SalonImages/salon3.jpg">
+  <img src="/public/SalonImages/salon3.jpg" alt="salon3">
+</a></td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="/public/SalonImages/salon4.jpg">
+      <img src="/public/SalonImages/salon4.jpg" alt="salon4">
+</a>
+            </td>
+            <td>
+                <a target="_blank" href="/public/SalonImages/salon5.jpg">
+      <img src="/public/SalonImages/salon5.jpg" alt="salon5">
+</a>
+            </td>
+            <td>
+                <a target="_blank" href="/public/SalonImages/salon6.jpg">
+      <img src="/public/SalonImages/salon6.jpg" alt="salon6">
+</a></td>
+        </tr>
+    </table>
+</div>}}

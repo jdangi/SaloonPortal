@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Customer Sign Up </title>
+</head>
+<div id="signup" class="animate form">
+    <form action="/signup" method="post" autocomplete="on">
+        <h2>Customer Sign Up</h2>
+        <hr>
+        <div class="boxes">
+            <p>
+                <label class="fname" data-icon="f"> First name </label>
+                <input id="firstname" name="firstName" required="required" type="text" />
+            </p>
+            <p>
+                <label data-icon="f"> Last name </label>
+                <input id="lastname" name="lastName" required="required" type="text" />
+            </p>
+            <p>
+                <label data-icon="a"> Address </label>
+                <input id="address" name="address" type="text" />
+            </p>
+            <p>
+                <label data-icon="c"> State </label>
+                <input id="city" name="city" type="text" />
+            </p>
+            <p>
+                <label data-icon="a"> City </label>
+                <input id="state" name="state" type="text" />
+            </p>
+            <p>
+                <label data-icon="a"> Zip Code </label>
+                <input id="zipcode" name="zipCode" type="text" />
+            </p>
+            <p>
+                <label data-icon="u"> Your Phone </label>
+                <input id="phone" name="contactNumber" type="number" placeholder="+1 222 222 2222" />
+            </p>
+            <p>
+                <label data-icon="u"> Your email</label>
+                <input id="email" name="email" required="required" type="text" placeholder="mymail@mail.com" />
+            </p>
+            <p>
+                <label data-icon="p"> Your password </label>
+                <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" />
+            </p>
+            <p>
+                <label data-icon="p"> Confirm password </label>
+                <input id="passwordsignup_confirm" name="passwordsignup_confirm" type="password" required="required" placeholder="eg. X8df!90EO"
+                />
+            </p>
+            <br>
+            <p class="sign up button">
+                <input type="submit" value="SIGN UP" />
+
+            </p>
+        </div>
+        <p class="change_link">
+            Already a member ?
+            <a href="#tologin" class="to_register"> Go and log in </a>
+        </p>
+    </form>
+</div>

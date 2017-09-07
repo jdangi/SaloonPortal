@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Stylist Profile</title>
+</head>
+<div id="container">
+    <div id="left">
+        <div id="stylist" class="animate form">
+            <div id="stylistProfile">
+                <a target="_blank" href="/public/stylistImages/stylist1.jpeg/stylist1.jpeg"></a>
+                <img src="/public/stylistImages/stylist1.jpeg" alt="stylist11">
+                <h3>Name: {{hairCutters.firstName}} {{hairCutters.lastName}}</h3>
+                <h4>Description: {{hairCutters.description}}</h4>
+                <h3>Reviews</h3>
+
+                {{#each reviews}}
+                <p>Review: {{this.review}} </p>
+
+                <p>Rating: {{this.rating}} </p>
+                {{/each}}
+
+
+                <div>
+                    <div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
