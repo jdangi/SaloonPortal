@@ -1,5 +1,5 @@
 /******************************************
- *  Author : Ruchika Batukbhai Sutariya   
+ *  Author : Jay Dangi   
  *  Created On : Sat Aug 26 2017
  *  File : services.js
  *******************************************/

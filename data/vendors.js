@@ -1,5 +1,5 @@
 /******************************************
- *  Author : Ruchika Batukbhai Sutariya & Harsh Jagdishbhai Kevadia
+ *  Author : Jay Dangi
  *  Created On : Mon Aug 14 2017
  *  File : vendors.js
  *******************************************/

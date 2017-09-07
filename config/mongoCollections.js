@@ -1,5 +1,5 @@
 /******************************************
- *  Author : Harsh Jagdishbhai Kevadia   
+ *  Author : Jay Dangi   
  *  Created On : Mon Aug 14 2017
  *  File : mongoCollections.js
  *******************************************/
