@@ -42,7 +42,7 @@ The Mongodb has to be started and then on running "npm start" the server starts 
 
 ## Authors
 
-* **Jay Dangi** - *Initial work* - [harshjk](https://github.com/harshjk)
+* **Jay Dangi** 
 
 
 ## License
