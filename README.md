@@ -42,14 +42,8 @@ The Mongodb has to be started and then on running "npm start" the server starts 
 
 ## Authors
 
-* **Aakriti Srivastava** - *Initial work* - [aakriti7](https://github.com/aakriti7)
-* **Harsh Kevadia** - *Initial work* - [harshjk](https://github.com/harshjk)
 * **Jay Dangi** - *Initial work* - [harshjk](https://github.com/harshjk)
-* **Renuka Dakshinamurthy** - *Initial work* - [harshjk](https://github.com/rdakshina)
-* **Ruchika Sutariya** - *Initial work* - [rsutariy](https://github.com/rsutariy)
 
-
-See also the list of [contributors](https://github.com/CS-546-Project/Saloon-Portal/graphs/contributors) who participated in this project.
 
 ## License
 
