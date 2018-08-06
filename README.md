@@ -6,7 +6,7 @@ can create visibility for their salon.
 
 ## Getting Started
 
-The project can be found on github at https://github.com/CS-546-Project/Saloon-Portal.git. It can be downloaded or cloned and run on your local machine.
+The project can be downloaded or cloned and run on your local machine.
 
 ### Prerequisites
 
